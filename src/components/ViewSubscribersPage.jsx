@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const ViewSubscribersPage = () => {
   return (
     <div>
+        <Navbar/>
         <table class="table">
   <thead>
     <tr>
