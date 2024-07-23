@@ -1,27 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div>
         <nav class="navbar navbar-expand-lg bg-body-secondary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Newspaper-Subscription-App</a>
+    <Link class="navbar-brand" to="#">Newspaper-Subscription-App</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">AddSubscribers Page</a>
+          <Link class="nav-link active" aria-current="page" to="/">AddSubscribers Page</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/delete">DeleteSubscribers Page</a>
+          <Link class="nav-link" to="/delete">DeleteSubscribers Page</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="view">ViewSubscribers Page</a>
+          <Link class="nav-link" to="/view">ViewSubscribers Page</Link>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="search">SearchSubscribers Page</a>
+        <Link class="nav-link" to="/search">SearchSubscribers Page</Link>
         </li>
       </ul>
     </div>
