@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Newspaper-Subscription-App</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,16 +12,16 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">AddSubscribers Page</a>
+          <a class="nav-link active" aria-current="page" href="/">AddSubscribers Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">DeleteSubscribers Page</a>
+          <a class="nav-link" href="/delete">DeleteSubscribers Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ViewSubscribers Page</a>
+          <a class="nav-link" href="view">ViewSubscribers Page</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">SearchSubscribers Page</a>
+        <a class="nav-link" href="search">SearchSubscribers Page</a>
         </li>
       </ul>
     </div>
